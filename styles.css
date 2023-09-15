@@ -19,16 +19,23 @@
 }
 .navbar{
     padding: 1.5rem;
-    background-color: aquamarine;
+    background-color: aqua;
     position: relative;
 }
 .fa-bars{
     position: absolute;
     margin: 23.5rem;
+}
+.hero-section img{
+    height: 200px;
+    padding-left: 10.5rem;
+    
+    margin: 1rem;
+    
+
     
     
-    
-    
+
     
     
 }
