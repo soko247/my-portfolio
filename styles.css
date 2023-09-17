@@ -5,6 +5,7 @@
 }
 .nav-links{
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -18,18 +19,92 @@
     color: black;
 }
 .navbar{
-    padding: 1.5rem;
-    background-color: aquamarine;
+    padding: 2rem;
     position: relative;
+    
 }
 .fa-bars{
     position: absolute;
     margin: 23.5rem;
-    
-    
-    
+}
+.hero-section{
+    width: 100%;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     
     
     
 }
+.hero-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+    
+
+h2{
+    height: 100hv;
+    width: 150px;
+    font-weight: 700;
+    padding-left: 8rem;
+    padding: 12rem;
+    justify-content: space-between;
+ 
+}
+.text{
+    position: absolute;
+    font-size: large;
+}
+p{
+    
+    
+    font-size: larger;
+    top: 30px;
+    font-weight: bolder;
+}
+.text{
+    top: 24rem;
+    margin: 1rem;
+    right: 2rem;
+
+}
+.download{
+    margin: 3.5rem;
+    position: absolute;
+    left: 4rem;
+    
+    
+}
+.download a{
+    color: white;
+    background-color: red;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 1rem;
+}
+/*media query for laptop devices*/
+
+
+@media (min-width: 1000px) and (max-width: 1900px){       
+    body {
+        background-color: aqua;
+    }
+
+    .nav-links ul li{
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+        
+    }
+    .fa-bars{
+        display: none;
+    }
+}
+
 
